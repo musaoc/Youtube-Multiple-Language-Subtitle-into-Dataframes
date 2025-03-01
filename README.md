@@ -20,13 +20,14 @@ A Python script to download subtitles from YouTube playlists and organize them i
 1. subtitle_downloader.py
 
 # Working
-Subtitles will be saved in the subtitles/ directory:
-   Individual playlist files: subtitles/<playlist_name>.xlsx
-   Master dataset: subtitles/all_playlists_subtitles.xlsx
+1. Subtitles will be saved in the subtitles/ directory:
+   A. Individual playlist files: subtitles/<playlist_name>.xlsx
+   B. Master dataset: subtitles/all_playlists_subtitles.xlsx
 ## Configuration
-Output Directory: Change OUTPUT_DIR in the script to customize the output folder.
-Cookies File: Set COOKIES_FILE to the path of your cookies file if authentication is needed.
-Rate Limiting: Adjust 'ratelimit' in ydl_opts to control download speed.
+1. Output Directory: Change OUTPUT_DIR in the script to customize the output folder.
+2. Cookies File: Set COOKIES_FILE to the path of your cookies file if authentication is needed.
+3. Rate Limiting: Adjust 'ratelimit' in ydl_opts to control download speed.
+4. To make cookies.txt use this extension: https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc
 
 ### Notes
 The script skips private videos and continues processing the playlist.
